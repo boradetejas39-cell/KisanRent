@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriLease – Booking Confirmed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="home.html" class="navbar-brand">
+                <img src="blablabla.jfif" alt="AgriLease Logo" class="brand-logo"> AgriLease
+            </a>
+            <div class="navbar-links">
+                <a href="home.html" class="nav-link">Home</a>
+                <a href="explore.html" class="nav-link">Explore</a>
+                <a href="list-item.html" class="nav-link">List</a>
+                <a href="my-rentals.html" class="nav-link">Rentals</a>
+            </div>
+            <div class="navbar-right">
+                <a href="profile.html" class="nav-avatar">RP</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Success Content -->
+    <div class="success-page">
+        <div class="success-card">
+            <div class="success-icon">✅</div>
+            <h1 class="success-title">Booking Confirmed!</h1>
+            <p class="success-subtitle">Your equipment rental has been successfully booked. You'll receive a
+                confirmation on your registered email &amp; phone.</p>
+
+            <!-- Booking Details Card -->
+            <div class="booking-details-card">
+                <div class="booking-row">
+                    <span class="booking-label">Booking ID</span>
+                    <span class="booking-value">#FR20260310</span>
+                </div>
+                <div class="booking-row">
+                    <span class="booking-label">Equipment</span>
+                    <span class="booking-value">Mahindra 575 DI Tractor</span>
+                </div>
+                <div class="booking-row">
+                    <span class="booking-label">Rental Period</span>
+                    <span class="booking-value">Mar 10 – Mar 17, 2026</span>
+                </div>
+                <div class="booking-row">
+                    <span class="booking-label">Duration</span>
+                    <span class="booking-value">7 Days</span>
+                </div>
+                <div class="booking-row">
+                    <span class="booking-label">Delivery</span>
+                    <span class="booking-value">Home Delivery</span>
+                </div>
+                <div class="booking-row">
+                    <span class="booking-label">Payment</span>
+                    <span class="booking-value">UPI / Google Pay</span>
+                </div>
+                <div class="booking-row total">
+                    <span class="booking-label">Total Paid</span>
+                    <span class="booking-value">₹7,000</span>
+                </div>
+            </div>
+
+            <p style="font-size:13px; color:var(--gray-500); margin-top:20px;">
+                The equipment owner will contact you shortly to arrange delivery.
+                For support, call <strong>1800-FARM-RENT</strong>.
+            </p>
+
+            <div class="success-actions">
+                <a href="my-rentals.html" class="btn btn-primary">View My Rentals</a>
+                <a href="home.html" class="btn btn-outline">Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

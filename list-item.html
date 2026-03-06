@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KisanRent – List Equipment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="home.html" class="navbar-brand">
+                <img src="blablabla.jfif" alt="KisanRent Logo" class="brand-logo"> KisanRent
+            </a>
+            <div class="navbar-links">
+                <a href="home.html" class="nav-link">Home</a>
+                <a href="explore.html" class="nav-link">Explore</a>
+                <a href="list-item.html" class="nav-link active">List</a>
+                <a href="my-rentals.html" class="nav-link">Rentals</a>
+            </div>
+            <div class="navbar-right">
+                <a href="profile.html" class="nav-avatar">RP</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="page-header-inner">
+            <h1>List Your Equipment</h1>
+            <p>Reach thousands of farmers looking to rent quality equipment</p>
+        </div>
+    </div>
+
+    <!-- List Form Content -->
+    <div class="page-wrapper" style="background: var(--gray-100);">
+        <div class="container">
+            <div class="list-form-page">
+
+                <!-- Left: Form -->
+                <div class="list-form">
+
+                    <!-- Upload Images -->
+                    <div class="checkout-section">
+                        <h3>Equipment Images</h3>
+                        <div class="upload-box">
+                            <div class="upload-placeholder">
+                                <span style="font-size:36px;">📸</span>
+                                <p>Drag & drop images or click to upload</p>
+                                <span style="font-size:12px; color:var(--gray-400);">JPG, PNG up to 5 MB each • Max 8
+                                    images</span>
+                            </div>
+                        </div>
+                        <div class="thumb-gallery" style="margin-top:12px; display:flex; gap:10px;">
+                            <div class="upload-thumb">
+                                <span style="font-size:20px;">🚜</span>
+                            </div>
+                            <div class="upload-thumb">
+                                <span style="font-size:20px;">🚜</span>
+                            </div>
+                            <div class="upload-thumb add">
+                                <span style="font-size:24px; color:var(--gray-400);">+</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Equipment Details -->
+                    <div class="checkout-section">
+                        <h3>Equipment Details</h3>
+                        <div class="form-group">
+                            <label class="form-label">Equipment Name</label>
+                            <input class="form-input" type="text" placeholder="e.g., Mahindra 575 DI Tractor"
+                                value="Mahindra 575 DI Tractor">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Category</label>
+                            <select class="form-select">
+                                <option value="vehicles" selected>🚜 Vehicles</option>
+                                <option value="machinery">⚙️ Machinery</option>
+                                <option value="tools">🔧 Tools</option>
+                                <option value="irrigation">💧 Irrigation</option>
+                                <option value="seeds">🌱 Seeds & Fertilizers</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Description</label>
+                            <textarea class="textarea"
+                                placeholder="Describe your equipment — condition, features, usage guidelines">Mahindra 575 DI Tractor in excellent condition. 45 HP engine with power steering. Well-maintained, regularly serviced. Suitable for ploughing, tilling, and transportation.</textarea>
+                        </div>
+                    </div>
+
+                    <!-- Pricing -->
+                    <div class="checkout-section">
+                        <h3>Pricing</h3>
+                        <div class="form-group">
+                            <label class="form-label">Rental Price (₹)</label>
+                            <input class="form-input" type="number" placeholder="e.g., 1200" value="1200">
+                        </div>
+                        <div class="tags-row" style="margin-top:8px;">
+                            <span class="tag active">Per Day</span>
+                            <span class="tag">Per Week</span>
+                            <span class="tag">Per Month</span>
+                        </div>
+                    </div>
+
+                    <!-- Location -->
+                    <div class="checkout-section">
+                        <h3>Location</h3>
+                        <div class="date-picker-row">
+                            <div class="form-group">
+                                <label class="form-label">State</label>
+                                <select class="form-select">
+                                    <option value="gujarat" selected>Gujarat</option>
+                                    <option value="maharashtra">Maharashtra</option>
+                                    <option value="rajasthan">Rajasthan</option>
+                                    <option value="madhya-pradesh">Madhya Pradesh</option>
+                                    <option value="punjab">Punjab</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">City</label>
+                                <select class="form-select">
+                                    <option value="ahmedabad" selected>Ahmedabad</option>
+                                    <option value="surat">Surat</option>
+                                    <option value="vadodara">Vadodara</option>
+                                    <option value="rajkot">Rajkot</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Pickup Address</label>
+                            <input class="form-input" type="text" placeholder="Address where renter can pick up"
+                                value="Satellite Road, Ahmedabad">
+                        </div>
+                    </div>
+
+                    <!-- Features -->
+                    <div class="checkout-section">
+                        <h3>Features</h3>
+                        <div class="tags-row">
+                            <span class="tag active">Power Steering</span>
+                            <span class="tag active">45 HP Engine</span>
+                            <span class="tag active">Diesel</span>
+                            <span class="tag active">4WD</span>
+                            <span class="tag dashed">+ Add Feature</span>
+                        </div>
+                    </div>
+
+                    <!-- Availability -->
+                    <div class="checkout-section">
+                        <h3>Availability</h3>
+                        <div class="date-picker-row">
+                            <div class="form-group">
+                                <label class="form-label">Available From</label>
+                                <input class="form-input" type="date" value="2026-03-01">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Available Until</label>
+                                <input class="form-input" type="date" value="2026-12-31">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="checkout-section">
+                        <h3>Contact</h3>
+                        <div class="form-group">
+                            <label class="form-label">Contact Number</label>
+                            <input class="form-input" type="tel" placeholder="+91 XXXXX XXXXX" value="+91 98765 43210">
+                        </div>
+                    </div>
+
+                    <!-- Terms & Submit -->
+                    <div class="checkout-section">
+                        <div class="checkbox-row" style="margin-bottom:20px;">
+                            <span class="checkbox checked"></span>
+                            <span class="checkbox-label">I agree to the listing terms, rental policies, and equipment
+                                standards.</span>
+                        </div>
+                        <div style="display:flex; gap:12px;">
+                            <a href="home.html" class="btn btn-primary" style="flex:1;">List Equipment</a>
+                            <a href="#" class="btn btn-outline" style="flex:1;">Save as Draft</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Tips Sidebar -->
+                <div class="list-sidebar">
+                    <div class="checkout-sticky">
+                        <div class="sidebar-summary" style="text-align:left;">
+                            <h3>📝 Listing Tips</h3>
+                            <div class="tip-item">
+                                <span class="tip-icon">📸</span>
+                                <div>
+                                    <strong>Clear Photos</strong>
+                                    <p style="font-size:13px; color:var(--gray-500); margin-top:2px;">Upload multiple
+                                        high-quality images from different angles.</p>
+                                </div>
+                            </div>
+                            <div class="tip-item">
+                                <span class="tip-icon">💰</span>
+                                <div>
+                                    <strong>Competitive Pricing</strong>
+                                    <p style="font-size:13px; color:var(--gray-500); margin-top:2px;">Check similar
+                                        listings to set a fair rental price.</p>
+                                </div>
+                            </div>
+                            <div class="tip-item">
+                                <span class="tip-icon">📋</span>
+                                <div>
+                                    <strong>Detailed Description</strong>
+                                    <p style="font-size:13px; color:var(--gray-500); margin-top:2px;">Mention condition,
+                                        features, and usage guidelines clearly.</p>
+                                </div>
+                            </div>
+                            <div class="tip-item">
+                                <span class="tip-icon">✅</span>
+                                <div>
+                                    <strong>Quick Response</strong>
+                                    <p style="font-size:13px; color:var(--gray-500); margin-top:2px;">Respond to
+                                        inquiries fast to build trust and get more rentals.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-summary" style="text-align:center; margin-top:20px;">
+                            <span style="font-size:28px;">🌾</span>
+                            <h4 style="margin-top:6px;">Earn with KisanRent</h4>
+                            <p style="font-size:13px; color:var(--gray-500); margin-top:6px;">Owners earn an average of
+                                ₹25,000/month by listing their equipment.</p>
+                            <a href="subscription.html" class="btn btn-outline btn-sm" style="margin-top:14px;">View
+                                Plans →</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand"><img src="blablabla.jfif" alt="KisanRent Logo" class="brand-logo">
+                        KisanRent</div>
+                    <p class="footer-desc">India's largest farming equipment rental platform.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="home.html" class="footer-link">Home</a>
+                    <a href="explore.html" class="footer-link">Explore</a>
+                    <a href="list-item.html" class="footer-link">List Equipment</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <a href="explore.html" class="footer-link">Vehicles</a>
+                    <a href="explore.html" class="footer-link">Machinery</a>
+                    <a href="explore.html" class="footer-link">Tools</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="#" class="footer-link">Help Center</a>
+                    <a href="#" class="footer-link">Terms &amp; Conditions</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">&copy; 2026 KisanRent. All rights reserved.</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

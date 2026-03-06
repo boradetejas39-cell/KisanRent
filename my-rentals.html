@@ -1,0 +1,308 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KisanRent – My Rentals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="home.html" class="navbar-brand">
+                <img src="blablabla.jfif" alt="KisanRent Logo" class="brand-logo"> KisanRent
+            </a>
+            <div class="navbar-links">
+                <a href="home.html" class="nav-link">Home</a>
+                <a href="explore.html" class="nav-link">Explore</a>
+                <a href="list-item.html" class="nav-link">List</a>
+                <a href="my-rentals.html" class="nav-link active">Rentals</a>
+            </div>
+            <div class="navbar-right">
+                <a href="profile.html" class="nav-avatar">RP</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="page-header-inner">
+            <h1>My Rentals</h1>
+            <p>Track and manage all your equipment rentals</p>
+        </div>
+    </div>
+
+    <!-- Rentals Content -->
+    <div class="page-wrapper" style="background: var(--gray-100);">
+        <div class="container">
+
+            <!-- Tabs -->
+            <div class="rentals-tabs">
+                <div class="tab active">As Renter</div>
+                <div class="tab">As Owner</div>
+            </div>
+
+            <!-- Active Rentals -->
+            <div class="section-header" style="margin-top:28px;">
+                <h2>Active Rentals <span class="count-badge">2</span></h2>
+            </div>
+            <div class="rentals-grid">
+                <!-- Card 1 -->
+                <div class="rental-card">
+                    <div class="rental-card-header">
+                        <div class="rental-status active">Active</div>
+                        <span class="rental-id">#FR20260310</span>
+                    </div>
+                    <div class="rental-card-body">
+                        <div class="rental-item-row">
+                            <div class="rental-icon">🚜</div>
+                            <div>
+                                <h4>Mahindra 575 DI Tractor</h4>
+                                <p>📍 Ahmedabad, Gujarat</p>
+                            </div>
+                        </div>
+                        <div class="rental-details">
+                            <div class="detail-pair">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">Mar 10 – Mar 17, 2026</span>
+                            </div>
+                            <div class="detail-pair">
+                                <span class="detail-label">Total Paid</span>
+                                <span class="detail-value" style="color:var(--primary); font-weight:700;">₹7,000</span>
+                            </div>
+                            <div class="detail-pair">
+                                <span class="detail-label">Delivery</span>
+                                <span class="detail-value">Home Delivery</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rental-card-footer">
+                        <a href="item-details.html" class="btn btn-outline btn-sm">View Details</a>
+                        <a href="#" class="btn btn-outline btn-sm"
+                            style="border-color:var(--error); color:var(--error);">Cancel</a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="rental-card">
+                    <div class="rental-card-header">
+                        <div class="rental-status active">Active</div>
+                        <span class="rental-id">#FR20260305</span>
+                    </div>
+                    <div class="rental-card-body">
+                        <div class="rental-item-row">
+                            <div class="rental-icon">⚙️</div>
+                            <div>
+                                <h4>Combine Harvester</h4>
+                                <p>📍 Surat, Gujarat</p>
+                            </div>
+                        </div>
+                        <div class="rental-details">
+                            <div class="detail-pair">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">Mar 5 – Mar 25, 2026</span>
+                            </div>
+                            <div class="detail-pair">
+                                <span class="detail-label">Total Paid</span>
+                                <span class="detail-value" style="color:var(--primary); font-weight:700;">₹45,000</span>
+                            </div>
+                            <div class="detail-pair">
+                                <span class="detail-label">Delivery</span>
+                                <span class="detail-value">Self Pickup</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rental-card-footer">
+                        <a href="item-details.html" class="btn btn-outline btn-sm">View Details</a>
+                        <a href="#" class="btn btn-outline btn-sm"
+                            style="border-color:var(--error); color:var(--error);">Cancel</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pending Rentals -->
+            <div class="section-header" style="margin-top:36px;">
+                <h2>Pending <span class="count-badge">1</span></h2>
+            </div>
+            <div class="rentals-grid">
+                <div class="rental-card">
+                    <div class="rental-card-header">
+                        <div class="rental-status pending">Pending</div>
+                        <span class="rental-id">#FR20260308</span>
+                    </div>
+                    <div class="rental-card-body">
+                        <div class="rental-item-row">
+                            <div class="rental-icon">🔧</div>
+                            <div>
+                                <h4>Power Sprayer Pump</h4>
+                                <p>📍 Vadodara, Gujarat</p>
+                            </div>
+                        </div>
+                        <div class="rental-details">
+                            <div class="detail-pair">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">Mar 20 – Mar 27, 2026</span>
+                            </div>
+                            <div class="detail-pair">
+                                <span class="detail-label">Total</span>
+                                <span class="detail-value" style="color:var(--primary); font-weight:700;">₹2,100</span>
+                            </div>
+                            <div class="detail-pair">
+                                <span class="detail-label">Status</span>
+                                <span class="detail-value" style="color:var(--accent);">Awaiting owner
+                                    confirmation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rental-card-footer">
+                        <a href="item-details.html" class="btn btn-outline btn-sm">View Details</a>
+                        <a href="#" class="btn btn-outline btn-sm"
+                            style="border-color:var(--error); color:var(--error);">Cancel</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Past Rentals -->
+            <div class="section-header" style="margin-top:36px;">
+                <h2>Past Rentals <span class="count-badge">3</span></h2>
+            </div>
+            <div class="rentals-grid">
+                <!-- Past 1 -->
+                <div class="rental-card">
+                    <div class="rental-card-header">
+                        <div class="rental-status completed">Completed</div>
+                        <span class="rental-id">#FR20260201</span>
+                    </div>
+                    <div class="rental-card-body">
+                        <div class="rental-item-row">
+                            <div class="rental-icon">🚜</div>
+                            <div>
+                                <h4>John Deere 5310 Tractor</h4>
+                                <p>📍 Rajkot, Gujarat</p>
+                            </div>
+                        </div>
+                        <div class="rental-details">
+                            <div class="detail-pair">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">Feb 1 – Feb 14, 2026</span>
+                            </div>
+                            <div class="detail-pair">
+                                <span class="detail-label">Total Paid</span>
+                                <span class="detail-value" style="color:var(--primary); font-weight:700;">₹19,600</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rental-card-footer">
+                        <a href="item-details.html" class="btn btn-outline btn-sm">View Details</a>
+                        <a href="#" class="btn btn-primary btn-sm">Rent Again</a>
+                    </div>
+                </div>
+
+                <!-- Past 2 -->
+                <div class="rental-card">
+                    <div class="rental-card-header">
+                        <div class="rental-status completed">Completed</div>
+                        <span class="rental-id">#FR20260115</span>
+                    </div>
+                    <div class="rental-card-body">
+                        <div class="rental-item-row">
+                            <div class="rental-icon">⚙️</div>
+                            <div>
+                                <h4>Rotavator</h4>
+                                <p>📍 Junagadh, Gujarat</p>
+                            </div>
+                        </div>
+                        <div class="rental-details">
+                            <div class="detail-pair">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">Jan 15 – Jan 22, 2026</span>
+                            </div>
+                            <div class="detail-pair">
+                                <span class="detail-label">Total Paid</span>
+                                <span class="detail-value" style="color:var(--primary); font-weight:700;">₹5,600</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rental-card-footer">
+                        <a href="item-details.html" class="btn btn-outline btn-sm">View Details</a>
+                        <a href="#" class="btn btn-primary btn-sm">Rent Again</a>
+                    </div>
+                </div>
+
+                <!-- Past 3 — Cancelled -->
+                <div class="rental-card">
+                    <div class="rental-card-header">
+                        <div class="rental-status cancelled">Cancelled</div>
+                        <span class="rental-id">#FR20260105</span>
+                    </div>
+                    <div class="rental-card-body">
+                        <div class="rental-item-row">
+                            <div class="rental-icon">💧</div>
+                            <div>
+                                <h4>Drip Irrigation Kit</h4>
+                                <p>📍 Anand, Gujarat</p>
+                            </div>
+                        </div>
+                        <div class="rental-details">
+                            <div class="detail-pair">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">Jan 5 – Jan 19, 2026</span>
+                            </div>
+                            <div class="detail-pair">
+                                <span class="detail-label">Refunded</span>
+                                <span class="detail-value" style="color:var(--error);">₹3,500</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rental-card-footer">
+                        <a href="item-details.html" class="btn btn-outline btn-sm">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand"><img src="blablabla.jfif" alt="KisanRent Logo" class="brand-logo">
+                        KisanRent</div>
+                    <p class="footer-desc">India's largest farming equipment rental platform.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="home.html" class="footer-link">Home</a>
+                    <a href="explore.html" class="footer-link">Explore</a>
+                    <a href="list-item.html" class="footer-link">List Equipment</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <a href="explore.html" class="footer-link">Vehicles</a>
+                    <a href="explore.html" class="footer-link">Machinery</a>
+                    <a href="explore.html" class="footer-link">Tools</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="#" class="footer-link">Help Center</a>
+                    <a href="#" class="footer-link">Terms &amp; Conditions</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">&copy; 2026 KisanRent. All rights reserved.</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

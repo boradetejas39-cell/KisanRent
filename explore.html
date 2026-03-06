@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KisanRent – Explore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="home.html" class="navbar-brand">
+                <img src="blablabla.jfif" alt="KisanRent Logo" class="brand-logo"> KisanRent
+            </a>
+            <div class="navbar-links">
+                <a href="home.html" class="nav-link">Home</a>
+                <a href="explore.html" class="nav-link active">Explore</a>
+                <a href="list-item.html" class="nav-link">List</a>
+                <a href="my-rentals.html" class="nav-link">Rentals</a>
+                <a href="subscription.html" class="nav-link">Plans</a>
+            </div>
+            <div class="navbar-right">
+                <a href="list-item.html" class="nav-btn-list">＋ List Equipment</a>
+                <a href="profile.html" class="nav-avatar">RP</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Explore Controls -->
+    <div class="explore-controls">
+        <div class="container">
+            <div class="explore-search">
+                <input type="text" placeholder="Search equipment, tools, vehicles...">
+            </div>
+
+            <div class="filter-tabs">
+                <span class="filter-chip active">All</span>
+                <span class="filter-chip"><span class="chip-icon">🚜</span> Vehicles</span>
+                <span class="filter-chip"><span class="chip-icon">⚙️</span> Machinery</span>
+                <span class="filter-chip"><span class="chip-icon">🔧</span> Tools</span>
+                <span class="filter-chip"><span class="chip-icon">💧</span> Irrigation</span>
+                <span class="filter-chip"><span class="chip-icon">🌱</span> Seeds</span>
+            </div>
+
+            <!-- <div class="filter-dropdowns">
+                <select class="filter-select">
+                    <option value="">All States</option>
+                    <option>Gujarat</option>
+                    <option>Maharashtra</option>
+                    <option>Rajasthan</option>
+                    <option>Madhya Pradesh</option>
+                    <option>Punjab</option>
+                    <option>Haryana</option>
+                    <option>Uttar Pradesh</option>
+                    <option>Bihar</option>
+                    <option>Karnataka</option>
+                </select>
+                <select class="filter-select">
+                    <option value="">All Cities</option>
+                    <option>Ahmedabad</option>
+                    <option>Pune</option>
+                    <option>Jaipur</option>
+                    <option>Indore</option>
+                    <option>Ludhiana</option>
+                    <option>Nagpur</option>
+                    <option>Surat</option>
+                    <option>Lucknow</option>
+                </select>
+                <select class="filter-select">
+                    <option value="">Price</option>
+                    <option>Low → High</option>
+                    <option>High → Low</option>
+                </select>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- Results -->
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="results-count">Showing <strong>24 results</strong> near you</div>
+
+            <div class="items-grid" style="padding-bottom: 48px;">
+                <a href="item-details.html" class="item-card">
+                    <div class="item-card-img">
+                        <img src="3D Models _ Over A Million Models For Download _ TurboSquid.jfif" alt="Mahindra 575 DI" class="item-image">
+                        <!-- <span class="item-badge">Popular</span>
+                        <span class="item-wishlist">♡</span> -->
+                    </div>
+                    <div class="item-card-body">
+                        <h4>Mahindra 575 DI</h4>
+                        <!-- <div class="item-location">📍 Ahmedabad, Gujarat</div> -->
+                        <div class="item-card-footer">
+                            <div class="item-price">₹1,200<span>/day</span></div>
+                            <!-- <div class="item-rating">⭐ 4.8</div> -->
+                        </div>
+                    </div>
+                </a>
+                <a href="item-details.html" class="item-card">
+                    <div class="item-card-img">
+                        <img src="Swaraj 744 FE 4WD Price, Specification and Mileage 2026.jfif" alt="Swaraj 744 FE" class="item-image">
+                        <!-- <span class="item-badge">New</span>
+                        <span class="item-wishlist">♡</span> -->
+                    </div>
+                    <div class="item-card-body">
+                        <h4>Swaraj 744 FE</h4>
+                        <!-- <div class="item-location">📍 Pune, Maharashtra</div> -->
+                        <div class="item-card-footer">
+                            <div class="item-price">₹1,500<span>/day</span></div>
+                            <!-- <div class="item-rating">⭐ 4.6</div> -->
+                        </div>
+                    </div>
+                </a>
+                <a href="item-details.html" class="item-card">
+                    <div class="item-card-img">
+                        <img src="Popular Malkit Combine Harvester in India.jfif" alt="Combine Harvester" class="item-image">
+                            <!-- <span class="item-badge">Top Rated</span>
+                            <span class="item-wishlist">♡</span> -->
+                    </div>
+                    <div class="item-card-body">
+                        <h4>Combine Harvester</h4>
+                        <!-- <div class="item-location">📍 Indore, MP</div> -->
+                        <div class="item-card-footer">
+                            <div class="item-price">₹3,500<span>/day</span></div>
+                            <!-- <div class="item-rating">⭐ 4.9</div> -->
+                        </div>
+                    </div>
+                </a>
+                <a href="item-details.html" class="item-card">
+                    <div class="item-card-img">
+                        <img src="Single speed rotavator sizes from 5',6',7',8' and 10'_ With gears on the side_.jfif" alt="Rotavator Machine" class="item-image">
+                        <!-- <span class="item-wishlist">♡</span> -->
+                    </div>
+                    <div class="item-card-body">
+                        <h4>Rotavator Machine</h4>
+                        <!-- <div class="item-location">📍 Nagpur, Maharashtra</div> -->
+                        <div class="item-card-footer">
+                            <div class="item-price">₹800<span>/day</span></div>
+                            <!-- <div class="item-rating">⭐ 4.7</div> -->
+                        </div>
+                    </div>
+                </a>
+                <a href="item-details.html" class="item-card">
+                    <div class="item-card-img">
+                        <img src="Products & Services Information.jfif" alt="Combine Harvester" class="item-image">
+                        <!-- <span class="item-wishlist">♡</span>    -->
+                    </div>
+                    <div class="item-card-body">
+                        <h4>John Deere 5310</h4>
+                        <!-- <div class="item-location">📍 Jaipur, Rajasthan</div> -->
+                        <div class="item-card-footer">
+                            <div class="item-price">₹1,800<span>/day</span></div>
+                            <!-- <div class="item-rating">⭐ 4.9</div>    -->
+                        </div>
+                    </div>
+                </a>
+                <a href="item-details.html" class="item-card">
+                    <div class="item-card-img">
+                        <img src="Field King 190515 Professionals Battery Powered Backpack Sprayer, 4 Gal.jfif" alt="Power Sprayer Pump" class="item-image">
+                        <!-- <span class="item-wishlist">♡</span> -->
+                    </div>
+                    <div class="item-card-body">
+                        <h4>Power Sprayer Pump</h4>
+                        <!-- <div class="item-location">📍 Surat, Gujarat</div> -->
+                        <div class="item-card-footer">
+                            <div class="item-price">₹250<span>/day</span></div>
+                            <!-- <div class="item-rating">⭐ 4.5</div> -->
+                        </div>
+                    </div>
+                </a>
+                <a href="item-details.html" class="item-card">
+                    <div class="item-card-img">
+                        <img src="Seed Drill Machine.jfif" alt="Seed Drill Machine" class="item-image">
+                        <!-- <span class="item-wishlist">♡</span> -->
+                    </div>
+                    <div class="item-card-body">
+                        <h4>Seed Drill Machine</h4>
+                        <!-- <div class="item-location">📍 Bhopal, MP</div> -->
+                        <div class="item-card-footer">
+                            <div class="item-price">₹600<span>/day</span></div>
+                            <!-- <div class="item-rating">⭐ 4.4</div>    -->
+                        </div>
+                    </div>
+                </a>
+                <a href="item-details.html" class="item-card">
+                    <div class="item-card-img">
+                        <img src="BHAGIRATH-Drip Irrigation Garden Watering Drip Kit Farming & Agriculture Purposes(25 Plants).jfif" alt="Drip Irrigation Kit" class="item-image">
+                        <!-- <span class="item-badge">Best Deal</span>
+                        <span class="item-wishlist">♡</span> -->
+                    </div>
+                    <div class="item-card-body">
+                        <h4>Drip Irrigation Kit</h4>
+                        <!-- <div class="item-location">📍 Rajkot, Gujarat</div> -->
+                        <div class="item-card-footer">
+                            <div class="item-price">₹350<span>/day</span></div>
+                            <!-- <div class="item-rating">⭐ 4.8</div> -->
+                        </div>
+                    </div>
+                </a>
+                <a href="item-details.html" class="item-card">
+                    <div class="item-card-img">
+                        <img src="Purchase Sonalika 60 Max Tiger from tractorsarena_com.jfif" alt="Sonalika DI 60" class="item-image">
+                        <!-- <span class="item-wishlist">♡</span> -->
+                    </div>
+                    <div class="item-card-body">
+                        <h4>Sonalika DI 60</h4>
+                        <!-- <div class="item-location">📍 Lucknow, UP</div> -->
+                        <div class="item-card-footer">
+                            <div class="item-price">₹1,100<span>/day</span></div>
+                            <!-- <div class="item-rating">⭐ 4.5</div> -->
+                        </div>
+                    </div>
+                </a>
+                <a href="item-details.html" class="item-card">
+                    <div class="item-card-img">
+                        <img src="Empowering Landscapers Worldwide with Premium Brush Cutter Spare Parts.jfif" alt="Brush Cutter" class="item-image">
+                        <!-- <span class="item-wishlist">♡</span> -->
+                    </div>
+                    <div class="item-card-body">
+                        <h4>Brush Cutter</h4>
+                        <!-- <div class="item-location">📍 Nashik, Maharashtra</div> -->
+                        <div class="item-card-footer">
+                            <div class="item-price">₹400<span>/day</span></div>
+                            <!-- <div class="item-rating">⭐ 4.6</div> -->
+                        </div>
+                    </div>
+                </a>
+                <a href="item-details.html" class="item-card">
+                    <div class="item-card-img">
+                        <img src="wishavkarma multicrop thresher.jfif" alt="Thresher Machine" class="item-image">
+                        <!-- <span class="item-wishlist">♡</span> -->
+                    </div>
+                    <div class="item-card-body">
+                        <h4>Thresher Machine</h4>
+                        <!-- <div class="item-location">📍 Ludhiana, Punjab</div> -->
+                        <div class="item-card-footer">
+                            <div class="item-price">₹950<span>/day</span></div>
+                            <!-- <div class="item-rating">⭐ 4.3</div> -->  
+                        </div>
+                    </div>
+                </a>
+                <a href="item-details.html" class="item-card">
+                    <div class="item-card-img">
+                        <img src="Latest Eicher 548 Tractor Price, Specifications & Mileage.jfif" alt="Eicher 380 Tractor" class="item-image">
+                        <!-- <span class="item-badge">New</span>
+                        <span class="item-wishlist">♡</span> -->
+                    </div>
+                    <div class="item-card-body">
+                        <h4>Eicher 380 Tractor</h4>
+                        <!-- <div class="item-location">📍 Patna, Bihar</div>    -->
+                        <div class="item-card-footer">
+                            <div class="item-price">₹900<span>/day</span></div>
+                            <!-- <div class="item-rating">⭐ 4.3</div> -->
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand"><img src="blablabla.jfif" alt="KisanRent Logo" class="brand-logo">
+                        KisanRent</div>
+                    <p class="footer-desc">India's largest farming equipment rental platform. Connecting farmers with
+                        equipment owners.</p>
+                    <div class="footer-social">
+                        <i class="fa-brands fa-linkedin-in fa-beat"></i>
+                        <i class="fa-brands fa-instagram fa-beat"></i> 
+                        <i class="fa-brands fa-facebook-f fa-beat"></i>
+                        <i class="fa-brands fa-youtube fa-beat"></i>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="home.html" class="footer-link">Home</a>
+                    <a href="explore.html" class="footer-link">Explore</a>
+                    <a href="list-item.html" class="footer-link">List Equipment</a>
+                    <a href="my-rentals.html" class="footer-link">My Rentals</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <a href="explore.html" class="footer-link">Vehicles</a>
+                    <a href="explore.html" class="footer-link">Machinery</a>
+                    <a href="explore.html" class="footer-link">Tools</a>
+                    <a href="explore.html" class="footer-link">Irrigation</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="#" class="footer-link">Help Center</a>
+                    <a href="#" class="footer-link">Contact Us</a>
+                    <a href="#" class="footer-link">Terms &amp; Conditions</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">&copy; 2026 KisanRent. All rights reserved.</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

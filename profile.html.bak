@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KisanRent – My Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="home.html" class="navbar-brand">
+                <img src="blablabla.jfif" alt="KisanRent Logo" class="brand-logo"> KisanRent
+            </a>
+            <div class="navbar-links">
+                <a href="home.html" class="nav-link">Home</a>
+                <a href="explore.html" class="nav-link">Explore</a>
+                <a href="list-item.html" class="nav-link">List</a>
+                <a href="my-rentals.html" class="nav-link">Rentals</a>
+            </div>
+            <div class="navbar-right">
+                <a href="profile.html" class="nav-avatar active">RP</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Content -->
+    <div class="page-wrapper" style="background: var(--gray-100); padding-top:40px;">
+        <div class="container">
+            <div class="profile-layout">
+
+                <!-- Left: Profile Sidebar -->
+                <div class="profile-sidebar">
+                    <div class="profile-card">
+                        <div class="profile-avatar-lg">RP</div>
+                        <h2 class="profile-name">Rajesh Patel</h2>
+                        <p class="profile-email">rajesh.patel@email.com</p>
+                        <p class="profile-phone">+91 98765 43210</p>
+                        <div class="profile-stats">
+                            <div class="stat">
+                                <span class="stat-num">12</span>
+                                <span class="stat-label">Rentals</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-num">5</span>
+                                <span class="stat-label">Listed</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-num">4.8</span>
+                                <span class="stat-label">Rating</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline" style="width:100%; margin-top:16px;">Edit Profile</a>
+                    </div>
+                </div>
+
+                <!-- Right: Profile Main -->
+                <div class="profile-main">
+
+                    <!-- Account Section -->
+                    <div class="profile-section">
+                        <h3 class="profile-section-title">Account</h3>
+                        <div class="profile-menu">
+                            <a href="#" class="profile-menu-item">
+                                <span class="menu-icon">👤</span>
+                                <div class="menu-text">
+                                    <span class="menu-label">Edit Profile</span>
+                                    <span class="menu-desc">Update your personal info and photo</span>
+                                </div>
+                                <span class="menu-arrow">›</span>
+                            </a>
+                            <a href="my-rentals.html" class="profile-menu-item">
+                                <span class="menu-icon">📋</span>
+                                <div class="menu-text">
+                                    <span class="menu-label">My Rentals</span>
+                                    <span class="menu-desc">View and manage your rental history</span>
+                                </div>
+                                <span class="menu-arrow">›</span>
+                            </a>
+                            <a href="#" class="profile-menu-item">
+                                <span class="menu-icon">📦</span>
+                                <div class="menu-text">
+                                    <span class="menu-label">My Listings</span>
+                                    <span class="menu-desc">Manage your listed equipment</span>
+                                </div>
+                                <span class="menu-arrow">›</span>
+                            </a>
+                            <a href="#" class="profile-menu-item">
+                                <span class="menu-icon">❤️</span>
+                                <div class="menu-text">
+                                    <span class="menu-label">Wishlist</span>
+                                    <span class="menu-desc">Equipment you've saved for later</span>
+                                </div>
+                                <span class="menu-arrow">›</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Subscription Section -->
+                    <div class="profile-section">
+                        <h3 class="profile-section-title">Subscription</h3>
+                        <div class="profile-menu">
+                            <a href="subscription.html" class="profile-menu-item">
+                                <span class="menu-icon">⭐</span>
+                                <div class="menu-text">
+                                    <span class="menu-label">Plans</span>
+                                    <span class="menu-desc">View and upgrade your subscription plan</span>
+                                </div>
+                                <span class="menu-arrow">›</span>
+                            </a>
+                            <a href="#" class="profile-menu-item">
+                                <span class="menu-icon">💳</span>
+                                <div class="menu-text">
+                                    <span class="menu-label">Payment Methods</span>
+                                    <span class="menu-desc">Manage saved cards and UPI</span>
+                                </div>
+                                <span class="menu-arrow">›</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Settings Section -->
+                    <div class="profile-section">
+                        <h3 class="profile-section-title">Settings</h3>
+                        <div class="profile-menu">
+                            <a href="#" class="profile-menu-item">
+                                <span class="menu-icon">🔔</span>
+                                <div class="menu-text">
+                                    <span class="menu-label">Notifications</span>
+                                    <span class="menu-desc">Set your notification preferences</span>
+                                </div>
+                                <span class="menu-arrow">›</span>
+                            </a>
+                            <a href="#" class="profile-menu-item">
+                                <span class="menu-icon">🌐</span>
+                                <div class="menu-text">
+                                    <span class="menu-label">Language</span>
+                                    <span class="menu-desc">Change app language</span>
+                                </div>
+                                <span class="menu-arrow">›</span>
+                            </a>
+                            <a href="#" class="profile-menu-item">
+                                <span class="menu-icon">🔒</span>
+                                <div class="menu-text">
+                                    <span class="menu-label">Privacy &amp; Security</span>
+                                    <span class="menu-desc">Password, two-factor and data settings</span>
+                                </div>
+                                <span class="menu-arrow">›</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Support Section -->
+                    <div class="profile-section">
+                        <h3 class="profile-section-title">Support</h3>
+                        <div class="profile-menu">
+                            <a href="#" class="profile-menu-item">
+                                <span class="menu-icon">❓</span>
+                                <div class="menu-text">
+                                    <span class="menu-label">Help Center</span>
+                                    <span class="menu-desc">FAQs and contact support</span>
+                                </div>
+                                <span class="menu-arrow">›</span>
+                            </a>
+                            <a href="#" class="profile-menu-item">
+                                <span class="menu-icon">📄</span>
+                                <div class="menu-text">
+                                    <span class="menu-label">Terms &amp; Conditions</span>
+                                    <span class="menu-desc">Read our latest terms of service</span>
+                                </div>
+                                <span class="menu-arrow">›</span>
+                            </a>
+                            <a href="#" class="profile-menu-item">
+                                <span class="menu-icon">ℹ️</span>
+                                <div class="menu-text">
+                                    <span class="menu-label">About KisanRent</span>
+                                    <span class="menu-desc">Version 2.1.0</span>
+                                </div>
+                                <span class="menu-arrow">›</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Logout -->
+                    <div class="profile-section">
+                        <a href="index.html" class="btn btn-outline"
+                            style="width:100%; border-color:var(--error); color:var(--error);">
+                            🚪 Logout
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand"><img src="blablabla.jfif" alt="KisanRent Logo" class="brand-logo">
+                        KisanRent</div>
+                    <p class="footer-desc">India's largest farming equipment rental platform.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="home.html" class="footer-link">Home</a>
+                    <a href="explore.html" class="footer-link">Explore</a>
+                    <a href="list-item.html" class="footer-link">List Equipment</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <a href="explore.html" class="footer-link">Vehicles</a>
+                    <a href="explore.html" class="footer-link">Machinery</a>
+                    <a href="explore.html" class="footer-link">Tools</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="#" class="footer-link">Help Center</a>
+                    <a href="#" class="footer-link">Terms &amp; Conditions</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">&copy; 2026 KisanRent. All rights reserved.</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

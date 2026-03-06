@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KisanRent – Checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="home.html" class="navbar-brand">
+                <img src="blablabla.jfif" alt="KisanRent Logo" class="brand-logo"> KisanRent
+            </a>
+            <div class="navbar-links">
+                <a href="home.html" class="nav-link">Home</a>
+                <a href="explore.html" class="nav-link">Explore</a>
+                <a href="list-item.html" class="nav-link">List</a>
+                <a href="my-rentals.html" class="nav-link">Rentals</a>
+            </div>
+            <div class="navbar-right">
+                <a href="profile.html" class="nav-avatar">RP</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="page-header-inner">
+            <h1>Checkout</h1>
+        </div>
+    </div>
+
+    <!-- Checkout Content -->
+    <div class="page-wrapper" style="background: var(--gray-100);">
+        <div class="container">
+            <div class="checkout-layout">
+
+                <!-- Left: Form -->
+                <div class="checkout-main">
+
+                    <!-- Equipment Summary -->
+                    <div class="checkout-section">
+                        <h3>Equipment Summary</h3>
+                        <div class="checkout-item-row">
+                            <div class="checkout-item-img">🚜</div>
+                            <div class="checkout-item-info">
+                                <h4>Mahindra 575 DI Tractor</h4>
+                                <p>📍 Ahmedabad, Gujarat</p>
+                                <p style="color:var(--primary); font-weight:700; margin-top:4px;">₹1,200 /day</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Rental Period -->
+                    <div class="checkout-section">
+                        <h3>Rental Period</h3>
+                        <div class="date-picker-row">
+                            <div class="form-group">
+                                <label class="form-label">Start Date</label>
+                                <input class="form-input" type="date" value="2026-03-10">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">End Date</label>
+                                <input class="form-input" type="date" value="2026-03-17">
+                            </div>
+                        </div>
+                        <div
+                            style="display:flex; align-items:center; gap:8px; margin-top:12px; padding:10px 14px; background:var(--primary-bg); border-radius:8px;">
+                            <span>📅</span>
+                            <span style="font-size:13px; font-weight:600; color:var(--primary);">7 Days Rental
+                                Duration</span>
+                        </div>
+                    </div>
+
+                    <!-- Delivery Option -->
+                    <div class="checkout-section">
+                        <h3>Delivery Option</h3>
+                        <div class="delivery-options">
+                            <div class="delivery-option selected">
+                                <div class="del-icon">🚚</div>
+                                <div class="del-title">Home Delivery</div>
+                                <div class="del-desc">₹500 extra</div>
+                            </div>
+                            <div class="delivery-option">
+                                <div class="del-icon">📍</div>
+                                <div class="del-title">Self Pickup</div>
+                                <div class="del-desc">Free</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Delivery Address -->
+                    <div class="checkout-section">
+                        <h3>Delivery Address</h3>
+                        <div class="form-group">
+                            <input class="form-input" type="text" placeholder="Full Name" value="Rajesh Patel">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-input" type="tel" placeholder="Phone Number" value="+91 98765 43210">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="textarea" style="min-height:70px;"
+                                placeholder="Full address">Near Sabarmati River, Satellite Road, Ahmedabad, Gujarat - 380015</textarea>
+                        </div>
+                    </div>
+
+                    <!-- Payment Method -->
+                    <div class="checkout-section">
+                        <h3>Payment Method</h3>
+                        <div class="payment-options">
+                            <div class="payment-option selected">
+                                <div class="payment-radio"></div>
+                                <span class="payment-icon">💳</span>
+                                <div style="flex:1;">
+                                    <div class="payment-label">UPI / Google Pay</div>
+                                    <div style="font-size:12px; color:var(--gray-500);">Pay securely via UPI</div>
+                                </div>
+                            </div>
+                            <div class="payment-option">
+                                <div class="payment-radio"></div>
+                                <span class="payment-icon">🏦</span>
+                                <div style="flex:1;">
+                                    <div class="payment-label">Net Banking</div>
+                                    <div style="font-size:12px; color:var(--gray-500);">All major banks supported</div>
+                                </div>
+                            </div>
+                            <div class="payment-option">
+                                <div class="payment-radio"></div>
+                                <span class="payment-icon">💵</span>
+                                <div style="flex:1;">
+                                    <div class="payment-label">Cash on Delivery</div>
+                                    <div style="font-size:12px; color:var(--gray-500);">Pay when equipment arrives</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Coupon -->
+                    <div class="checkout-section">
+                        <h3>Apply Coupon</h3>
+                        <div class="coupon-row">
+                            <input class="form-input" type="text" placeholder="Enter coupon code" value="FARM30">
+                            <a href="#" class="btn btn-outline btn-sm btn-auto">Apply</a>
+                        </div>
+                        <div
+                            style="display:flex; align-items:center; gap:6px; margin-top:8px; font-size:12px; color:var(--success); font-weight:600;">
+                            ✓ Coupon FARM30 applied — ₹2,520 discount
+                        </div>
+                    </div>
+
+                    <!-- Terms -->
+                    <div class="checkout-section">
+                        <div class="checkbox-row">
+                            <span class="checkbox checked"></span>
+                            <span class="checkbox-label">I agree to the rental terms and conditions, cancellation
+                                policy, and equipment handling guidelines.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Summary Sidebar -->
+                <div class="checkout-sidebar">
+                    <div class="checkout-sticky">
+                        <div class="sidebar-summary">
+                            <h3>Price Summary</h3>
+                            <div class="summary-row">
+                                <span class="label">Rental Charge (7 days × ₹1,200)</span>
+                                <span class="value">₹8,400</span>
+                            </div>
+                            <div class="summary-row">
+                                <span class="label">Delivery Charge</span>
+                                <span class="value">₹500</span>
+                            </div>
+                            <div class="summary-row">
+                                <span class="label">Service Fee</span>
+                                <span class="value">₹420</span>
+                            </div>
+                            <div class="summary-row discount">
+                                <span class="label">Coupon Discount (FARM30)</span>
+                                <span class="value">-₹2,520</span>
+                            </div>
+                            <div class="summary-row">
+                                <span class="label">Insurance</span>
+                                <span class="value">₹200</span>
+                            </div>
+                            <div class="summary-row total">
+                                <span class="label">Total Amount</span>
+                                <span class="value">₹7,000</span>
+                            </div>
+                            <a href="booking-success.html" class="btn btn-primary">
+                                Confirm &amp; Pay ₹7,000
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand"><img src="blablabla.jfif" alt="KisanRent Logo" class="brand-logo">
+                        KisanRent</div>
+                    <p class="footer-desc">India's largest farming equipment rental platform.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="home.html" class="footer-link">Home</a>
+                    <a href="explore.html" class="footer-link">Explore</a>
+                    <a href="list-item.html" class="footer-link">List Equipment</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <a href="explore.html" class="footer-link">Vehicles</a>
+                    <a href="explore.html" class="footer-link">Machinery</a>
+                    <a href="explore.html" class="footer-link">Tools</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="#" class="footer-link">Help Center</a>
+                    <a href="#" class="footer-link">Terms &amp; Conditions</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">&copy; 2026 KisanRent. All rights reserved.</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
